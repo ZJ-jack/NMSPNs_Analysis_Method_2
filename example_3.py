@@ -183,7 +183,7 @@ def example_3():
                     'T16': ['T14'],
                     }
     first_time = datetime.datetime.now()
-    print('Methods 1 and 2 started!')
+    print('Example 3 started!')
     record_time_list = []
     for t_list_index, _ in enumerate(t_list):
         print('current_time:{:.3f}'.format((t_list_index + 1) * min_tau),
@@ -484,7 +484,7 @@ def example_3():
         place_num_list_dict['P8'][t_list_index + 2] = nf_list_dict['T9'][t_list_index + 1] * 0.1 + return_nd['P8'][t_list_index]
         place_num_list_dict['P11'][t_list_index + 2] = nf_list_dict['T10'][t_list_index + 1] + return_nd['P11'][t_list_index]
     last_time = datetime.datetime.now()
-    print('Methods 1 and 2 completed!')
+    print('Example 3 completed!')
     print('total process time: {:.5f}s'.format((last_time-first_time).total_seconds()))
     print()
     return nf_list_dict
