@@ -494,4 +494,4 @@ if __name__ == "__main__":
     nf_list_dict = example_3()
     print("cumulative firing counts of transitions:")
     for transition_name in nf_list_dict.keys():
-        print(nf_list_dict[transition_name].tolist()[-1], transition_name, nf_list_dict[transition_name].tolist())
+        print(transition_name, nf_list_dict[transition_name].tolist())
