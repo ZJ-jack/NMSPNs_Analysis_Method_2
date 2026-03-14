@@ -1,6 +1,6 @@
 # Analysis of Non-Markovian Stochastic Petri Nets (NMSPNs)
 
-This repository hosts the implementation of **Example 3 (page. 33-38)**. The code provides a framework for analyzing NMSPN models, with a fixed network structure but adjustable parameters.
+This repository hosts the implementation of **Example 3 (pages 33-38)**. The code provides a framework for analyzing NMSPN models, with a fixed network structure but adjustable parameters.
 
 ## Requirements
 
